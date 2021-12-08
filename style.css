@@ -1,0 +1,138 @@
+/* button */
+.btn{
+    /* color: white; */
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 0.7rem 0.9rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-top: 10px;
+
+}
+.btn:hover {
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #0000;
+  }
+  .btn-text{
+      text-decoration: underline;
+  }
+
+
+  /* form-item */
+  .form-item{
+      display: inline-block;
+      justify-content: center;
+      padding:1em;
+      margin-top:1.3rem; 
+     
+    }
+    .form-input{
+        width:32.5vw;
+        height:5.5vh;
+    }
+    .btn-form{
+        color:#ffff;
+        background-color: var(--primary-color);
+        padding:0.65rem 0.85rem;
+        
+    }
+@media (max-width:40em){
+.form-input{
+    display: inline-table;
+    width:60.5vw;
+    justify-self: center;
+    text-align: center;
+
+    }
+.btn-form{
+    display:inline-table;
+    justify-content:center;
+    margin-left: 1rem;
+    text-align: center;
+    width:60.5vw;
+}
+}
+/* hero-section */
+
+.hero-section {
+    max-width: 750px;
+    margin: 4rem;
+    width:80%;
+    padding:1.5rem; 
+}
+.hero-section  h1{
+    font-size: 2.9rem;
+    font-weight: 700;
+    color:var(--header-color);
+}
+.hero-section .text{
+   line-height: 1.9rem;
+   margin-top:1.5rem;
+   color: var(--header-color);
+
+}
+@media (max-width:40em){
+    .hero-section h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+
+/* span-section */
+ .span{
+    background-color: var(--primary-color);
+    border-radius: 1.9rem;
+    padding: .5rem;
+    color:#ffff;
+    text-decoration: none;
+    max-width:70%;
+    width:90%;  
+
+}
+@media (max-width:40em){
+    .span{
+        border-radius: 8.9rem;
+        padding:.9rem;
+        margin-left: 2rem;
+       
+    }
+}
+/* image */
+.left-image{
+    margin-left: 50em;
+    position: absolute;
+    bottom:4em;
+    overflow: visible;
+}
+@media (max-width:900px){
+    .left-image{
+        overflow: hidden;
+    }
+}
+
+/* sites-section */
+.apps{
+    display:inline-block;
+    margin-left: 2.5rem;
+    max-width: 520px;
+    width:45%;
+    justify-content: center;
+}
+.apps-header{
+    margin-bottom:0.85rem;
+    margin-left: 1rem;
+}
+.apps-links{
+    display: flex;
+    list-style: none;
+}
+.apps-links li{
+    list-style-type: none;
+}
+.apps-links a{
+    margin:.5em;
+}

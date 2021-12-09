@@ -94,6 +94,8 @@
     text-decoration: none;
     max-width:70%;
     width:80%;  
+    margin-bottom: .9rem;
+    text-align: center auto;
 
 }
 @media (max-width:40em){
@@ -101,6 +103,8 @@
         border-radius: 8.9rem;
         padding:.8rem;
         margin-left: 3rem;
+        margin-bottom: .5rem;
+        text-align: center;
        
     }
 }

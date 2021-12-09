@@ -42,7 +42,7 @@
 @media (max-width:40em){
 .form-input{
     display: inline-table;
-    width:60.5vw;
+    width:70.5vw;
     justify-self: center;
     text-align: center;
 
@@ -52,16 +52,16 @@
     justify-content:center;
     margin-left: 1rem;
     text-align: center;
-    width:60.5vw;
+    width:70.5vw;
 }
 }
 /* hero-section */
 
 .hero-section {
     max-width: 750px;
-    margin: 4rem;
-    width:80%;
-    padding:1.5rem; 
+    margin: 2rem;
+    width:90%;
+    /* padding:1.5rem;  */
 }
 .hero-section  h1{
     font-size: 2.9rem;
@@ -70,11 +70,14 @@
 }
 .hero-section .text{
    line-height: 1.9rem;
-   margin-top:1.5rem;
+   /* margin-top:.1rem; */
    color: var(--header-color);
 
 }
 @media (max-width:40em){
+    .hero-section{
+        padding:0;
+    }
     .hero-section h1{
         text-align: center;
         font-size: 2.5rem;
@@ -90,27 +93,26 @@
     color:#ffff;
     text-decoration: none;
     max-width:70%;
-    width:90%;  
+    width:80%;  
 
 }
 @media (max-width:40em){
     .span{
         border-radius: 8.9rem;
-        padding:.9rem;
-        margin-left: 2rem;
+        padding:.8rem;
+        margin-left: 3rem;
        
     }
 }
 /* image */
 .left-image{
-    margin-left: 50em;
+    margin-left: 49.5em;
     position: absolute;
-    bottom:4em;
-    overflow: visible;
+    bottom:2.5em;
 }
 @media (max-width:900px){
     .left-image{
-        overflow: hidden;
+        display: none;
     }
 }
 
@@ -119,20 +121,21 @@
     display:inline-block;
     margin-left: 2.5rem;
     max-width: 520px;
-    width:45%;
+    width:95%;
     justify-content: center;
 }
-.apps-header{
-    margin-bottom:0.85rem;
-    margin-left: 1rem;
-}
+/* .apps-header{ */
+    /* margin-bottom:0.6rem; */
+    /* margin-left: 1rem; */
+/* } */
 .apps-links{
     display: flex;
     list-style: none;
+    text-overflow: clip;
 }
 .apps-links li{
     list-style-type: none;
 }
 .apps-links a{
-    margin:.5em;
+    margin:.1em;
 }
